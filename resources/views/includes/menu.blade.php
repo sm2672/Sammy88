@@ -29,7 +29,7 @@
                 <a class="nav-link" href="/signin">Signin</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/logout">Logout</a>
+                <a class="nav-link" href="/logouth">Logout</a>
 
 
 
