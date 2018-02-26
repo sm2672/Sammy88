@@ -56,3 +56,6 @@ Route::get('/view message', function () {
 Route::get('/logout', function () {
     return view('pages.logout');
 });
+Route::get('/bootcard', function () {
+    return view('pages.bootcard');
+});

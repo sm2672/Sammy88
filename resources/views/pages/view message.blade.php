@@ -20,7 +20,7 @@
         <tbody>
         <tr>
             <th scope="row">1</th>
-            <td><a href="url">Message</a></td>
+            <td><a href="/bootcard">Message</a></td>
             <td>Messi</td>
             <td><button type="submit" class="btn btn-primary mb-2">Delete</button>  </td>
         </tr>
