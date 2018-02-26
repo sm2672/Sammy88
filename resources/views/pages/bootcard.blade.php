@@ -9,7 +9,7 @@
         <div class="card-block">
             <h4 class="card-title">Card title</h4>
             <p class="card-text">Subject</p>
-            <p class="card-text">From Email</p>
+            <p class="card-text">From Email:</p>
             <p class="card-text">Message</p>
         </div>
     </div>
