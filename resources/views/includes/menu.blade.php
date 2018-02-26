@@ -19,6 +19,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/view message">View Message</a>
             </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
             <li class="nav-item">
                 <a class="nav-link" href="/signup">Signup</a>
             </li>
