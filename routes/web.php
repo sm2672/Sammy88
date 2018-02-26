@@ -12,38 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('pages.index');
+    return view('welcome');
 });
-
-Route::get('/about', function () {
-    return view('pages.about');
-});
-
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
-
-Route::post('/contact', function () {
-
-    $data = request()->all();
-
-    echo "Email: ". $data['email'] . "<br>";
-    echo "Body: ". $data['body'];
-});
-
-Route::get('/view message', function () {
-    return view('pages.view message');
-});
-
-Route::get('/signup', function () {
-    return view('pages.signup');
-});
-
-
-
-Route::get('/signin', function () {
-    return view('pages.signin');
-});
-
-
-
