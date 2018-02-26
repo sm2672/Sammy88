@@ -9,7 +9,7 @@
             <form action="/contact" method="post">
                 {{ csrf_field() }}
                 <div class="form-group">
-                    <label for="name">Email Addressl</label>
+                    <label for="name">Email Address</label>
                     <input name="name" class="form-control" id="name" placeholder="">
                 </div>
                 <div class="form-group">
