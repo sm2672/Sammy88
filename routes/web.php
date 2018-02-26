@@ -29,8 +29,8 @@ Route::post('/contact', function () {
     echo "Body:" . $data['body'] . '<br>';
 
 });
-Route::get('/login', function () {
-    return view('pages.login');
+Route::get('/signin', function () {
+    return view('pages.signin');
 });
 Route::post('/login', function () {
 
@@ -50,8 +50,8 @@ Route::post('/signup', function () {
     echo "Email:" . $data['email'] . '<br>';
     echo "Password:" . $data['password'];
 });
-Route::get('/view messages', function () {
-    return view('pages.view messages');
+Route::get('/view message', function () {
+    return view('pages.view message');
 });
 Route::get('/logout', function () {
     return view('pages.logout');
