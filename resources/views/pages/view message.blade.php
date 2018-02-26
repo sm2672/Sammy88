@@ -26,7 +26,7 @@
         </tr>
         <tr>
             <th scope="row">2</th>
-            <td><a href="/bootcard">Message</a> </td>
+            <td><a href="/bootcard">Message</a></td>
             <td>Ronaldo</td>
             <td><button type="submit" class="btn btn-primary mb-2">Delete</button>     </td>
         </tr>
