@@ -23,7 +23,7 @@
 
         <ul class="nav navbar-nav navbar-right">
             <li class="nav-item">
-                <a class="nav-link" href="/signup">Signup</a>
+                <a class="nav-link" href="/lherokusignup">Signup</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/signin">Signin</a>
