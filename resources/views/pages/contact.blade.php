@@ -22,20 +22,20 @@
                             <input name="name" class="form-control" id="name" placeholder="name">
                         </div>
                     </form>
-                <div class="card-body">
-                    <form action="/subject" method="post">
-                        {{ csrf_field() }}
-                        <div class="form-group">
-                            <label for="email">subject</label>
-                            <input name="subject" class="form-control" id="name" placeholder="subject">
-                        </div>
-                    </form>
+                    <div class="card-body">
+                        <form action="/subject" method="post">
+                            {{ csrf_field() }}
+                            <div class="form-group">
+                                <label for="email">subject</label>
+                                <input name="subject" class="form-control" id="name" placeholder="subject">
+                            </div>
+                        </form>
                         <div class="form-group">
                             <label for="body">Message</label>
                             <textarea name="body" class="form-control" id="body" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary mb-2">Submit</button>
-
+                    </div>
                 </div>
             </form>
         </div>
