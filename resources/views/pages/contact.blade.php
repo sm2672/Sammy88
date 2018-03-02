@@ -17,6 +17,7 @@
                 <div class="card-body">
                     <form action="/subject" method="post">
                         {{ csrf_field() }}
+                        <div class="card mt-3 pl-2 pr-2">
                         <div class="form-group">
                             <label for="name">name</label>
                             <input name="name" class="form-control" id="name" placeholder="name">
