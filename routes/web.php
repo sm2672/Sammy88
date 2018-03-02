@@ -11,38 +11,40 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
-Route::get('/about', function () {
-    return view('pages.about');
-});
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
-Route::post('/contact', function () {
+Route::get('/', 'PagesController@home')->name('home');
 
-    $data = request()->all();
+Route::get('/about', 'PagesController@about')->name('about');
 
-    echo "Email:" . $data['email'] . '<br>';
-    echo "Subject:" . $data ['subject'] . '<br>';
-    echo "Body:" . $data['body'] . '<br>';
+Route::get('/contact', 'PagesController@contact')->name('contact');
 
-});
+Route::post('/contact', 'PagesController@save')->name('contact.save');
+
+Route::get('/thanks/{name}', 'PagesController@thanks')->name('thanks');
+
+
+    //$data = request()->all();
+
+   //// echo "Email:" . $data['email'] . '<br>';
+   // echo "Subject:". $data['subject'] . '<br>';
+    //echo "Body:" . $data['body'] . '<br>';
+
+//});
 Route::get('/signin', function () {
     return view('pages.signin');
-});
+})->name('signin');
+
 Route::post('/login', function () {
 
     $data = request()->all();
 
-    echo "Email:" . $data['email'] . '<br>';
+   echo "Email:" . $data['email'] . '<br>';
     echo "Password:" . $data['password'];
 });
 
 Route::get('/signup', function () {
     return view('pages.signup');
-});
+})->name('signup');
+
 Route::post('/signup', function () {
 
     $data = request()->all();
@@ -52,10 +54,13 @@ Route::post('/signup', function () {
 });
 Route::get('/view message', function () {
     return view('pages.view message');
-});
+})->name('view message');
+
 Route::get('/logout', function () {
     return view('pages.logout');
-});
+})->name('logout');
+
 Route::get('/bootcard', function () {
     return view('pages.bootcard');
 });
+

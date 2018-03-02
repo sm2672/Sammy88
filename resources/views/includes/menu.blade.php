@@ -11,26 +11,26 @@
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="{{route('about')}}">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
+                <a class="nav-link" href="{{route('contact')}}">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/view message">View Message</a>
+                <a class="nav-link" href="{{route('view message')}}">View Message</a>
             </li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
             <li class="nav-item">
-                <a class="nav-link" href="/signup">Signup</a>
+                <a class="nav-link" href="{{route('signup')}}">Signup</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/signin">Signin</a>
+                <a class="nav-link" href="{{route('signin')}}">Signin</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/logout">Logout</a>
-
+                <a class="nav-link" href="{{route('logout')}}">Logout</a>
+        </ul>
 
 
             <li class="nav-item dropdown">
